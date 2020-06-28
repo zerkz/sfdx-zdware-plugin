@@ -30,12 +30,13 @@ USAGE
 ```
 <!-- usagestop -->
 <!-- commands -->
-* [`sfdx zdware:cleanWorkspace [-f] [--force] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`](#cleanWorkspace)
+* [`sfdx zdware:cleanWorkspace -- Reset your Developer Console by deleting all your IDEWorkspace records.`](#cleanWorkspace)
 
-## ``sfdx zdware:cleanWorkspace [-f] [--force] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]``
+## ``sfdx zdware:cleanWorkspace [-f] [--force] [--json] [-u] [--targetusername] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]``
 
 After confirmation, delete all of the IDEWorkspace records belonging to your user.
 
+Meant to fix this issue: https://help.salesforce.com/articleView?id=000335530&type=1&mode=1
 ```
 USAGE
   $ sfdx hello:org [-f] [-u <string>] [--json] [--loglevel 
